@@ -1,0 +1,159 @@
+body {
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #d7eaef;
+}
+
+header {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: 900;
+  color: #4f4f4f;
+}
+
+section {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 30px 0;
+}
+
+fieldset {
+  padding-bottom: 25px;
+}
+
+.form {
+  background-color: white;
+  margin: 10% 35%;
+  border: 1px solid #D2D6DF;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  height: 50%;
+}
+
+.input > input, select {
+  box-sizing: border-box;
+  border-radius: 3px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px #d3d3d3 solid;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-bottom: 10px;
+}
+
+select {
+  height: 45px;
+}
+
+.input > .first {
+  width: 80%
+}
+
+.input > .middle {
+  width: 19%;
+}
+
+.input > .city {
+  width: 49%;
+}
+
+.input > .states {
+  width: 30%
+}
+
+.input > .zip {
+  width: 19%
+}
+
+.button {
+  box-sizing: border-box;
+  border-radius: 3px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 5px 12px;
+  border: 1px #D2D6DF solid;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #5cc3e0;
+  color: white;
+  cursor: pointer;
+}
+
+.loanlength {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: #898989;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+th p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  width: 100%;
+  display: inline;
+}
+
+#option {
+  margin-right: 10px;
+}
+
+.checkboxes > input, label {
+  display: inline;
+  font-size: 16px;
+  line-height: 40px;
+  width: 100%;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  border-radius: 3px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  width: 100%;
+  height: 150px;
+  padding: 9px 12px;
+  border: 1px #d3d3d3 solid;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+
+
+
+
